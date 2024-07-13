@@ -1,0 +1,10 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+}
+
+.mainContent {
+  display: flex;
+  height: calc(100svh - var(--navbar-height) - var(--footer-height));
+}
